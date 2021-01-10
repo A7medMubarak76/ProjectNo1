@@ -1,0 +1,233 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+}
+
+
+h1, h2{
+    
+    font-weight: normal;
+}
+
+
+
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+
+
+
+#header-div{
+    background-color:blanchedalmond;
+    padding: 10px 0;
+    
+}
+
+
+
+#header-div h1, #header-div p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;    
+}
+
+
+
+#header-div input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+    color: darkslategray;
+}
+
+
+
+#thebiglist, #adding-book{
+    margin: 30px;   
+}
+
+
+
+#thebiglist ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+#thebiglist li{
+    padding: 20px;
+    border-right: 5px solid #dd1;
+    margin: 20px 10px;
+}
+
+
+
+#thebiglist li:hover{
+    border-color: red;
+}
+
+
+
+.delete-btn{
+    float: left;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+.delete-btn:hover{
+    background: #dd1;
+}
+
+
+
+#adding-book{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+#adding-book input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 0px 4px 4px 0px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+
+
+
+#adding-book button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+    width: 100px;
+    float:left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+
+
+#adding-book:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+#adding-book #hide-list{
+    width: 30px;
+    float: right;
+}
+#adding-book label{
+    line-height: 52px;
+}
+
+
+
+
+/**********************************
+
+
+                The Slid bar 
+
+*****/
+
+
+nav{
+    position: fixed;
+    right: -20em;
+    background-color: antiquewhite;
+    border-right: 10px solid darkgray;
+    box-shadow: 0px 5px 0px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 100%;
+    width: auto;
+}
+
+nav:after{
+    
+    position: absolute;
+    content: '';
+    width: auto;
+    height: auto;
+    left: -30px;
+    top: 50%;
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent wheat transparent transparent;
+}
+
+nav ul{
+    width: 15em;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav, nav *{
+    transition: all 1000ms ease;
+}
+
+nav:hover{
+    right: 0;
+}
+
+
+nav li{
+    cursor: pointer;
+    padding: 5%;
+    display: block;
+    border-right: 2px solid black;
+    margin: 10px;
+}
+
+#menuicon{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
